@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arvo', serif;
+    color: #272727;
+}
+
+/* Header */
+.header {
+    background-color: #848586;
+    padding: 20px;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+    color: #EAC435;
+}
+
+.header ul {
+    list-style-type: none;
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header ul li a {
+    color: #A30000;
+}
+
+/* Profile */
+.profile {
+    display: inline-block;
+    width: 100%;
+    margin-top: 75px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+.profile h2 {
+    font-size: 40px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.profile #background {
+    max-height: 300px;
+    float: right;
+    margin-right:150px;
+}
+
+.profile #profile {
+    max-height: 200px;
+    position: absolute;
+    right: 180px;
+    bottom: 0px;
+    border: 10px solid white;
+}
+
+.charlie {
+    color: #EAC435;
+}
+
+/* About Me */
+.about-me {
+    margin: 50px 50px;
+    display:inline-block;
+}
+
+.about-me h3 {
+
+}
