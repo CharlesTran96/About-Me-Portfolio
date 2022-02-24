@@ -46,20 +46,20 @@
 .profile h2 {
     font-size: 45px;
     margin-top: 200px;
-    text-align: center;
+    margin-left: 550px;
 }
 
 .profile #background {
     max-height: 500px;
     float: right;
-    margin-right:300px;
+    margin-right:400px;
     position: relative;
 }
 
 .profile #profile {
     max-height: 500px;
     position: absolute;
-    right: 300px;
+    right: 400px;
     top: 250px;
     border: 10px solid white;
 }
@@ -108,11 +108,9 @@
 }
 
 .coming-soon img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
     position: relative;
+    left: 550px;
 }
 
 #coming-soon {
@@ -122,20 +120,19 @@
     color: #80A1D4;
     font-size: 50px;
     margin: 50px;
-    z-index: 1;
+    bottom: 450px;
+    left: 575px;
 }
 
 .work-in-progress {
-    width: 100%;
+    width: 50%;
     border: 25px solid white;
 }
 
 .work-in-progress img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
     position: relative;
+    left: 550px;
 }
 
 #work-in-progress {
@@ -143,21 +140,20 @@
     bottom: 50px;
     background-color: white;
     color: #80A1D4;
-    font-size: 50px;
-    margin: 50px;
+    font-size: 30px;
+    margin: 30px;
+    left: 575px;
 }
 
 .up-and-coming {
-    width: 100%;
+    width: 50%;
     border: 25px solid white;
 }
 
-.up-and-comming img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.up-and-coming img {
     width: 50%;
     position: relative;
+    right: 20px;
 }
 
 #up-and-coming {
@@ -165,8 +161,8 @@
     bottom: 50px;
     background-color: white;
     color: #80A1D4;
-    font-size: 50px;
-    margin: 50px;
+    font-size: 30px;
+    margin: 30px;
 }
 
 /* Contact Me */
@@ -212,12 +208,12 @@
 
 /* Resume */
 .resume {
-    margin: 0px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 .resume h3 {
     font-size: 35px;
     text-decoration: underline #80A1D4;
-    margin: 0px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     text-align: center;
 }
